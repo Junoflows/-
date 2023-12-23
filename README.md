@@ -271,3 +271,5 @@ class BlockingTimeSeriesSplit():
 + xgboost 와 lgbm 으로 시작하였고 제일 결과가 좋은 모델은 catboost 였음
 + Pycaret 으로 가장 효과가 좋은 모델을 찾았을 때도 catboost, xgboost, lgbm 순임
 + 데이터 전처리를 마치고 바로 모델을 돌려보는 것보다는 Pycaret 을 돌려보고 성능 좋은 모델을 선별하여 모델링하는게 좋을 것으로 판단됨.
++ 건물별로 특성을 더 잘 파악했다면 어땠을까 하는 아쉬움이 남음
+  + 건물별로 주말 외의 쉬는 날이 있다는 걸 고려했다면 더 좋은 성능을 띄었을 것으로 판단됨
